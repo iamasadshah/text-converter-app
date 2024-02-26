@@ -89,7 +89,7 @@ export default function TextForm(props) {
             <div className='container'>
                 <h1>{props.heading}</h1>
                 <div class="form-group">
-                    <textarea class="form-control" value={text} onChange={handleUpChange} id="myBox" rows="6" placeholder='Enter Text to analyze'></textarea>
+                    <textarea class="form-control" value={text} onChange={handleUpChange} id="myBox" rows="6" placeholder='Enter Text here'></textarea>
                 </div>
                 <button id='button' className="btn btn-primary my-3 mx-2" onClick={convertToBinary}>English to Binary</button>
                 <button id='button' className="btn btn-primary my-3 mx-2" onClick={convertToEnglish}>Binary to English</button>
