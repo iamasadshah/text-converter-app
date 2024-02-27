@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -9,7 +11,7 @@
 
 #navbar{
 font-family:Georgia, 'Times New Roman', Times, serif;
-  background-color: #445a67;
+background-color: #445a67;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

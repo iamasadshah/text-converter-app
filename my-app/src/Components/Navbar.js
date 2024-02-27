@@ -12,9 +12,9 @@ export default function Navbar(props) {
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a className="nav-link" href="/">{props.about}</a>
-      </li>
+      </li> */}
     </ul>
     {/* <form className="form-inline my-2 my-lg-0">
       <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
