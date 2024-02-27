@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+#navbar{
+font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #445a67;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -30,10 +34,11 @@
 
 #button{
   border-radius: 10px;
+  background-color: #57838D;
 }
 #button:hover {
-  background-color: #17ee42;
-  box-shadow: 0 0 0 4px #fff, 0 0 0 8px #4070f4;
+  background-color: #445a67;
+  box-shadow: 0 0 0 4px #fff, 0 0 0 8px #57838D;
  
 }
 
