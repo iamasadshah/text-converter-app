@@ -11,7 +11,8 @@
 
 #navbar{
 font-family:Georgia, 'Times New Roman', Times, serif;
-background-color: #445a67;
+  background-color: #445a67;
+  box-shadow: 0 4px #57838D,;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -37,10 +38,11 @@ background-color: #445a67;
 #button{
   border-radius: 10px;
   background-color: #57838D;
+  transition: all ease 0.5s;
 }
 #button:hover {
   background-color: #445a67;
-  box-shadow: 0 0 0 4px #fff, 0 0 0 7px #57838D;
+  box-shadow: 5px 5px 0px #57838D;
  
 }
 

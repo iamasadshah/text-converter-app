@@ -95,8 +95,8 @@ export default function TextForm(props) {
                 <button id='button' className="btn btn-primary my-1 mx-2" onClick={convertToEnglish}>Binary to English</button>
                 <button id='button' className="btn btn-primary my-1 mx-2" onClick={convertToCipher}>Convert to Cipher</button>
                 <button id='button' className="btn btn-primary my-1 mx-2" onClick={convertToText}>Convert to PlainText</button>
-                <button id='button' className="btn btn-primary my-1 mx-2" onClick={handleUpClick}>Convert to Upper Case</button>
-                <button id='button' className="btn btn-primary my-1 mx-2" onClick={handleLoClick}>Convert to Upper Case</button>
+                <button id='button' className="btn btn-primary my-1 mx-2" onClick={handleUpClick}>Convert to UpperCase</button>
+                <button id='button' className="btn btn-primary my-1 mx-2" onClick={handleLoClick}>Convert to LowerCase</button>
                 <button id='button' className="btn btn-primary my-1 mx-2" onClick={handleClearText}>Clear Text</button>
                 
             </div>
