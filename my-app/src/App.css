@@ -38,7 +38,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
 }
 #button:hover {
   background-color: #445a67;
-  box-shadow: 0 0 0 4px #fff, 0 0 0 8px #57838D;
+  box-shadow: 0 0 0 4px #fff, 0 0 0 7px #57838D;
  
 }
 
@@ -47,7 +47,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate360deg);
   }
 }
 

@@ -91,10 +91,10 @@ export default function TextForm(props) {
                 <div class="form-group">
                     <textarea class="form-control" value={text} onChange={handleUpChange} id="myBox" rows="6" placeholder='Enter Text here'></textarea>
                 </div>
-                <button id='button' className="btn btn-primary my-3 mx-2" onClick={convertToBinary}>English to Binary</button>
-                <button id='button' className="btn btn-primary my-3 mx-2" onClick={convertToEnglish}>Binary to English</button>
-                <button id='button' className="btn btn-primary my-3 mx-2" onClick={convertToCipher}>Convert to Cipher</button>
-                <button id='button' className="btn btn-primary my-3 mx-2" onClick={convertToText}>Convert to PlainText</button>
+                <button id='button' className="btn btn-primary my-1 mx-2" onClick={convertToBinary}>English to Binary</button>
+                <button id='button' className="btn btn-primary my-1 mx-2" onClick={convertToEnglish}>Binary to English</button>
+                <button id='button' className="btn btn-primary my-1 mx-2" onClick={convertToCipher}>Convert to Cipher</button>
+                <button id='button' className="btn btn-primary my-1 mx-2" onClick={convertToText}>Convert to PlainText</button>
                 <button id='button' className="btn btn-primary my-1 mx-2" onClick={handleUpClick}>Convert to Upper Case</button>
                 <button id='button' className="btn btn-primary my-1 mx-2" onClick={handleLoClick}>Convert to Upper Case</button>
                 <button id='button' className="btn btn-primary my-1 mx-2" onClick={handleClearText}>Clear Text</button>
