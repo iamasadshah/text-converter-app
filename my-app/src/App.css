@@ -1,7 +1,5 @@
-
 .App {
   text-align: center;
-  
 }
 
 .App-logo {
@@ -9,10 +7,10 @@
   pointer-events: none;
 }
 
-#navbar{
-font-family:Georgia, 'Times New Roman', Times, serif;
+#navbar {
+  font-family: Georgia, "Times New Roman", Times, serif;
   background-color: #445a67;
-  box-shadow: 0 4px #57838D,;
+  box-shadow: 0 4px #57838d;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,15 +33,14 @@ font-family:Georgia, 'Times New Roman', Times, serif;
   color: #61dafb;
 }
 
-#button{
+#button {
   border-radius: 10px;
-  background-color: #57838D;
+  background-color: #57838d;
   transition: all ease 0.5s;
 }
 #button:hover {
   background-color: #445a67;
-  box-shadow: 5px 5px 0px #57838D;
- 
+  box-shadow: 5px 5px 0px #57838d;
 }
 
 @keyframes App-logo-spin {
@@ -51,8 +48,6 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     transform: rotate(0deg);
   }
   to {
-    transform: rotate360deg);
+    transform: rotate360deg;
   }
 }
-
-
