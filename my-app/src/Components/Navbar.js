@@ -2,6 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 export default function Navbar(props) {
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+    // You can perform additional actions here when switching modes,
+    // such as updating a context or storing the mode in local storage.
+  };
   return (
     <div>
         <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`} id='navbar'>
@@ -16,6 +23,7 @@ export default function Navbar(props) {
         <a className="nav-link" href="/">{props.about}</a>
       </li> */}
     </ul>
+    
   </div>
 </nav>
     </div>
