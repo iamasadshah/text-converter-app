@@ -23,7 +23,9 @@ export default function Navbar(props) {
         <a className="nav-link" href="/">{props.about}</a>
       </li> */}
     </ul>
-    
+    <button className="btn btn-outline-primary mx-2" onClick={toggleDarkMode}>
+            {darkMode ? 'Light Mode' : 'Dark Mode'}
+          </button>
   </div>
 </nav>
     </div>
