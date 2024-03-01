@@ -46,5 +46,5 @@ export default function Navbar(props) {
 
 // PropTypes for validation
 Navbar.propTypes = {
-  title: PropTypes.string.isRequired, // Ensure title is a required string
+  title: PropTypes.string(),
 };
