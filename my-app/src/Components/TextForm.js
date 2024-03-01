@@ -81,7 +81,10 @@ export default function TextForm(props) {
         setText(newText)
     }
     
-
+    const toggleDarkMode = () => {
+        document.body.classList.toggle('dark-mode');
+    }
+    
 
     const [text, setText] = useState("")
     return (
