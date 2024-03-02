@@ -81,14 +81,12 @@ export default function TextForm(props) {
         setText(newText)
     }
     
+    // const [darkMode, setDarkMode] = useState(false);
+
     // const toggleDarkMode = () => {
-    //     document.body.classList.toggle('dark-mode');
+    //     setDarkMode(!darkMode);
     // }
     
-    // // Function to handle text input change
-    // const handleInputChange = (event) => {
-    //     setText(event.target.value); // Update text state with input value
-    // }
 
     const [text, setText] = useState("")
     return (
@@ -105,9 +103,7 @@ export default function TextForm(props) {
                 <button id='button' className="btn btn-primary my-1 mx-2" onClick={handleUpClick}>Convert to UpperCase</button>
                 <button id='button' className="btn btn-primary my-1 mx-2" onClick={handleLoClick}>Convert to LowerCase</button>
                 <button id='button' className="btn btn-primary my-1 mx-2" onClick={handleClearText}>Clear Text</button>
-                {/* <button className="btn btn-primary my-1 mx-2" onClick={toggleDarkMode}>Toggle Dark Mode</button> */}
 
-                
             </div>
             <div className="container">
                 <h1>Your Text Summary</h1>
