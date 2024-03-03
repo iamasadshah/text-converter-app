@@ -8,7 +8,7 @@ function App() {
     
       <Navbar title="Text Converter" />
       <div className="container"> 
-      <TextForm heading = "Enter Text to Analyze"/>
+      <TextForm heading = "Enter Your Text to Analyze"/>
       </div>
     </>
   );
