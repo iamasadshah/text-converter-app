@@ -78,8 +78,8 @@ export default function TextForm(props) {
 
     const handleClearText = () => {
         let newText = ("");
-        setText(newText)
-        props.showAlert("Text Cleared!", "success")
+        setText(newText);
+        props.showAlert("Text Cleared!", "success");
     }
     
     
