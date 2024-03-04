@@ -13,13 +13,14 @@ function App() {
       type: type
     })
   }
+
     return (
     <>
     
       <Navbar title="Text Converter" />
       <Alert alert={alert}/>
       <div className="container"> 
-      <TextForm heading = "Enter Your Text to Analyze"/>
+      <TextForm showAlert={showAlert} heading = "Enter Your Text to Analyze"/>
       </div>
     </>
   );
