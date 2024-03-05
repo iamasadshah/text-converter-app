@@ -26,11 +26,12 @@ Make sure you have Node.js and npm installed on your machine. If not, download a
 
 `npm install`
 
-Start the Development Server:
+**Start the Development Server:**
 
 `npm start`
 
-Access the Application:
+**Access the Application:**
+
 Open your web browser and go to 
 `http://localhost:3000`
 to access the Text Converter application.
